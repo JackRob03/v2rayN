@@ -170,7 +170,7 @@
                         <MenuItem
                             x:Name="menuSortServerResult"
                             Height="{StaticResource MenuItemHeight}"
-                            Header="{x:Static resx:ResUI.menuSortServerResult}" />
+                            Header="{x:Static resx:ResUI.menuSortServerResult}" Visibility="Collapsed" />
                         <Separator />
                         <MenuItem
                             x:Name="menuMoveToGroup"
